@@ -25,7 +25,7 @@ if ((@$_GET["success"] == "true") ) {
         Ayo menyongsong masa depan cerah bersama Darun Najah!
     </div>
     <div class="formulir">
-        <form method="POST" action="send-email.php">
+        <form method="POST" action="send-email-api.php">
             <h5>HUBUNGI KAMI UNTUK INFORMASI LENGKAP</h5>
             <div class="form-group">
                 <label for="inputNama">Nama*</label>
@@ -56,7 +56,7 @@ if ((@$_GET["success"] == "true") ) {
                 Ayo menyongsong masa depan cerah bersama Darun Najah!
             </p>
             <div class="formulir">
-                <form method="POST" action="send-email.php">
+                <form method="POST" action="send-email-api.php">
                     <h5>HUBUNGI KAMI UNTUK INFORMASI LENGKAP</h5>
                     <div class="form-group">
                         <label for="inputNama">Nama*</label>
@@ -291,7 +291,7 @@ if ((@$_GET["success"] == "true") ) {
             </div>
             <p style="font-size: 28px; color: rgb(255, 204, 0); margin-bottom: 25px;">Penutupan Pendaftaran 30 Juli 2019</p>
             <div class="formulir">
-                <form method="POST" action="send-email.php">
+                <form method="POST" action="send-email-api.php">
                     <h5>HUBUNGI KAMI UNTUK INFORMASI LENGKAP</h5>
                     <div class="form-group">
                         <label for="inputNama">Nama*</label>

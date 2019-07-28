@@ -9,4 +9,15 @@ $phpmailerConfig = [
     'port' => 465
 ];
 
+$emailConfig = [
+    'from' => 'no-reply@mg.coba.dev',
+    'receiver' => 'info@amicis.co.id',
+    'subject' =>'Ada Pendaftar Baru di SMK Darunnajah',
+];
+
+$mailgun = [
+    'domain' => 'example.com',
+    'secret' => 'xxxx',
+];
+
 $baseUrl = 'http://inasurvey.test';
