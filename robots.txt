@@ -1,0 +1,6 @@
+User-Agent: *
+
+Disallow: /
+
+# Wondering why are we blocking crawlers visit of our webpages?,
+# Ask us personally then, perhaps if we are in the mood we will telling you :)
