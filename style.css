@@ -1,0 +1,147 @@
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+.logo {
+    margin-bottom: 25px;
+}
+
+.header {
+    display: block;
+    background: rgba(50,50,51,0);
+    background-image: url(//darunnajah.inasurvey.id/images/darun-najah-santriwati-front.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: 935px;
+    position: relative;
+}
+
+h1 {
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: white;
+}
+
+.header .teks {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.formulir {
+    color: black;
+    padding: 25px 15px;
+    background: rgba(170,170,170,0.75);
+    text-align: left;
+}
+.formulir button {
+    padding: 10px 0;
+    font-weight: bold;
+}
+.formulir h5 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 15px;;
+}
+
+.header-mobile .atas {
+    position: relative;
+    background: #116dff;
+    margin-bottom: -100px;
+    z-index: 9999;
+}
+.header-mobile h1 {
+    color: white;
+    font-size: 32px;
+    padding: 0 15px;
+}
+.header-mobile .top {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.header-mobile .gambar {
+    position: relative;
+    z-index: 9998;
+}
+.header-mobile .gambar img {
+    width: 100%;
+    height: auto;
+}
+.header-mobile .formulir {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.header-mobile .teks {
+    background: rgba(5,68,148,1);
+    color: white;
+    padding: 20px 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-body {
+    padding: .85rem;
+}
+.metode {
+    margin-bottom: 30px;
+}
+.metode > img {
+    padding: 3rem;
+}
+.metode .card-body {
+    padding-top: 0;
+    margin-top: -25px;
+}
+
+.testimoni {
+    margin-top: 25px;
+    background: rgba(248,248,248,1);
+    padding: 25px 15px;
+}
+
+
+.program {
+    margin-top: 30px;
+}
+.program .card {
+    margin-bottom: 30px;
+}
+
+.tentang {
+    margin-top: 30px;
+}
+
+.img-teks {
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.daftar .btn {
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding: 12px 30px;
+}
+
+.footer .text-center {
+    font-size: 13px;
+    letter-spacing: .5px;
+}
